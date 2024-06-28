@@ -6,20 +6,13 @@ This is a project as the technical challange for Software Engineering Academy, C
 
 ### Desktop 
 <img width="908" alt="image" src="https://github.com/nicolas5143/project_tugas_compfestsea/assets/140360591/40f6bab5-7164-47b2-8fea-5a862e2a27a0">
-<img width="908" alt="image" src="https://github.com/nicolas5143/project_tugas_compfestsea/assets/140360591/40f6bab5-7164-47b2-8fea-5a862e2a27a0">
 <img width="904" alt="image" src="https://github.com/nicolas5143/project_tugas_compfestsea/assets/140360591/f7b41578-66e4-4414-9692-60f8c5735026">
-<img width="904" alt="image" src="https://github.com/nicolas5143/project_tugas_compfestsea/assets/140360591/f7b41578-66e4-4414-9692-60f8c5735026">
-<img width="904" alt="image" src="https://github.com/nicolas5143/project_tugas_compfestsea/assets/140360591/8c4d918b-5ee3-44df-b655-dcbc81fba095">
 <img width="904" alt="image" src="https://github.com/nicolas5143/project_tugas_compfestsea/assets/140360591/8c4d918b-5ee3-44df-b655-dcbc81fba095">
 
 ### Mobile 
 <img width="380" alt="image" src="https://github.com/nicolas5143/project_tugas_compfestsea/assets/140360591/82352af5-ae9d-4734-86f5-8231ab5a2daf">
-<img width="380" alt="image" src="https://github.com/nicolas5143/project_tugas_compfestsea/assets/140360591/82352af5-ae9d-4734-86f5-8231ab5a2daf">
-<img width="374" alt="image" src="https://github.com/nicolas5143/project_tugas_compfestsea/assets/140360591/d386bcfe-2eab-4c42-9d1b-e4ae00533063">
-<img width="374" alt="image" src="https://github.com/nicolas5143/project_tugas_compfestsea/assets/140360591/d386bcfe-2eab-4c42-9d1b-e4ae00533063">
 <img width="373" alt="image" src="https://github.com/nicolas5143/project_tugas_compfestsea/assets/140360591/13c5d7e5-3dd5-4ebe-9c74-1b0a1958975c">
-<img width="373" alt="image" src="https://github.com/nicolas5143/project_tugas_compfestsea/assets/140360591/13c5d7e5-3dd5-4ebe-9c74-1b0a1958975c">
-
+<img width="374" alt="image" src="https://github.com/nicolas5143/project_tugas_compfestsea/assets/140360591/d386bcfe-2eab-4c42-9d1b-e4ae00533063">
 
 ## To run in you machine
 
