@@ -2,6 +2,10 @@
 
 This is a project as the technical challange for Software Engineering Academy, Compfest, registration. This project is a salon website. There's a home page where you can view the services and fill the review for the salon. From there, you can go to reservation page where you can book for services. This project is made using flutter with firebase, firestore, service as a backend.
 
+## Visit the web
+https://nicolas5143.github.io/tugas_compfestsea/
+Repo for the deployed web -> https://github.com/nicolas5143/tugas_compfestsea
+
 ## App preview
 
 ### Desktop 
@@ -14,7 +18,7 @@ This is a project as the technical challange for Software Engineering Academy, C
 <img width="373" alt="image" src="https://github.com/nicolas5143/project_tugas_compfestsea/assets/140360591/13c5d7e5-3dd5-4ebe-9c74-1b0a1958975c">
 <img width="374" alt="image" src="https://github.com/nicolas5143/project_tugas_compfestsea/assets/140360591/d386bcfe-2eab-4c42-9d1b-e4ae00533063">
 
-## To run in you machine
+## To run in your machine
 
 You need to set flutter and firebase configuration:
 - Flutter SDK: [Install Flutter](https://flutter.dev/docs/get-started/install)
