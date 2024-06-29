@@ -3,7 +3,9 @@
 This is a project as the technical challange for Software Engineering Academy, Compfest, registration. This project is a salon website. There's a home page where you can view the services and fill the review for the salon. From there, you can go to reservation page where you can book for services. This project is made using flutter with firebase, firestore, service as a backend.
 
 ## Visit the web
-https://nicolas5143.github.io/tugas_compfestsea/
+
+Link to the github pages -> https://nicolas5143.github.io/tugas_compfestsea/
+
 Repo for the deployed web -> https://github.com/nicolas5143/tugas_compfestsea
 
 ## App preview
