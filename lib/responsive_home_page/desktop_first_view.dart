@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import '../util/font_style.dart';
+import 'package:salon_app/util/font_style.dart';
+// import '../util/font_style.dart';
 
 class DesktopFirstView extends StatelessWidget {
   const DesktopFirstView({super.key});
@@ -13,7 +14,7 @@ class DesktopFirstView extends StatelessWidget {
       alignment: Alignment.bottomRight,
       decoration: const BoxDecoration(
           image: DecorationImage(
-        image: AssetImage('images/scene_of_a_salon.jpg'),
+        image: AssetImage('assets/images/scene_of_a_salon.jpg'),
       )),
       child: Container(
         decoration: const BoxDecoration(

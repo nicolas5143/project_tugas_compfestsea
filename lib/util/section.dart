@@ -73,20 +73,18 @@ class ServiceCard extends StatelessWidget {
 }
 
 class FormSection extends StatefulWidget {
-  final String text, hintText;
-  final TextEditingController controller;
+  final TextFormField formField;
+  final String label;
 
   const FormSection(
-      {super.key,
-      required this.text,
-      required this.controller,
-      required this.hintText});
+      {super.key, required this.formField, required this.label});
 
   @override
   State<FormSection> createState() => _FormSectionState();
 }
 
 class _FormSectionState extends State<FormSection> {
+
   @override
   Widget build(BuildContext context) {
     final currentWidth = MediaQuery.of(context).size.width;
@@ -95,7 +93,7 @@ class _FormSectionState extends State<FormSection> {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          widget.text,
+          widget.label,
           style: const TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 18,
@@ -104,28 +102,9 @@ class _FormSectionState extends State<FormSection> {
         const SizedBox(
           height: 5,
         ),
-        Container(
-          width: currentWidth / 2,
-          padding: const EdgeInsets.symmetric(
-            horizontal: 10,
-            vertical: 0,
-          ),
-          decoration: BoxDecoration(
-            borderRadius: const BorderRadius.all(Radius.circular(15)),
-            border: Border.all(
-              color: Colors.black,
-              width: 0.8,
-            ),
-          ),
-          child: TextFormField(
-            style: const TextStyle(fontSize: 15, color: Colors.black),
-            controller: widget.controller,
-            expands: false,
-            decoration: InputDecoration(
-              hintText: widget.hintText,
-              border: InputBorder.none,
-            ),
-          ),
+        SizedBox(
+          width: currentWidth / 2 + 50,
+          child: widget.formField,
         ),
         const SizedBox(
           height: 15,

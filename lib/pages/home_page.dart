@@ -1,10 +1,10 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
-import 'package:salon_app/responsive/responsive_layout.dart';
+import 'package:salon_app/responsive_home_page///responsive_layout.dart';
 import 'package:salon_app/util/pop_up.dart';
-import '../responsive/desktop_first_view.dart';
-import '../responsive/mobile_first_view.dart';
+import '../responsive_home_page///desktop_first_view.dart';
+import '../responsive_home_page///mobile_first_view.dart';
 import '../util/section.dart';
 import '../util/font_style.dart';
 import '../util/var.dart';
@@ -66,15 +66,15 @@ class _HomePageState extends State<HomePage> {
                       ServiceCard(
                           desc: servicesDescription[0],
                           serviceName: services[0],
-                          image: 'images/styling_hair_salon.jpg'),
+                          image: 'assets/images/styling_hair_salon.jpg'),
                       ServiceCard(
                           desc: servicesDescription[1],
                           serviceName: services[1],
-                          image: 'images/manicure_salon.jpg'),
+                          image: 'assets/images/manicure_salon.jpg'),
                       ServiceCard(
                           desc: servicesDescription[2],
                           serviceName: services[2],
-                          image: 'images/facial_treatment_salon.jpg'),
+                          image: 'assets/images/facial_treatment_salon.jpg'),
                     ],
                   )
                 ],
@@ -87,29 +87,43 @@ class _HomePageState extends State<HomePage> {
 
             const Divider(indent: 80, endIndent: 80, color: Colors.black, thickness: 1.3,),
 
-            // section for directing user to reservation page
+            // section for directing user to login and signin page
             Padding(
               padding: const EdgeInsets.all(20),
-              child: SizedBox(
-                child: Column(
-                  children: [
-                    const Text(
-                      'Ready to book our service?',
-                      style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-                    ),
-                    TextButton(
-                      onPressed: () {Navigator.pushNamed(context, '/reservation_page');},
-                      style: ButtonStyle(
-                        backgroundColor: WidgetStateProperty.all(Colors.orangeAccent[100]),
-                        padding: WidgetStateProperty.all(const EdgeInsets.all(15)),
+              child: Column(
+                children: [
+                  const Text(
+                    'Ready to book our service?',
+                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                  ),
+                  const Text(
+                    'Login or Sign In to book',
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                  const SizedBox(height: 10,),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      TextButton(
+                        onPressed: () {Navigator.pushNamed(context, '/login_page');},
+                        style: ButtonStyle(
+                          backgroundColor: WidgetStateProperty.all(Colors.orangeAccent[100]),
+                          padding: WidgetStateProperty.all(const EdgeInsets.all(15)),
+                        ),
+                        child: const ButtonFont(text: 'Login'),
                       ),
-                      child: const Text(
-                        'Click here to book',
-                        style: TextStyle(fontWeight: FontWeight.bold, color: Colors.black),
+                      const SizedBox(width: 10,),
+                      TextButton(
+                        onPressed: () {Navigator.pushNamed(context, '/signin_page');},
+                        style: ButtonStyle(
+                          backgroundColor: WidgetStateProperty.all(Colors.orangeAccent[100]),
+                          padding: WidgetStateProperty.all(const EdgeInsets.all(15)),
+                        ),
+                        child: const ButtonFont(text: 'Sign In'),
                       ),
-                    ),
-                  ]
-                ),
+                    ],
+                  ),
+                ]
               ),
             ),
 
