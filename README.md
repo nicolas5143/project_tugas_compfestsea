@@ -4,9 +4,9 @@ This is a project as the technical challange for Software Engineering Academy, C
 
 ## Visit the web
 
-Repo for the deployed web -> https://github.com/nicolas5143/tugas_compfestsea
-
 Link to the github pages -> https://nicolas5143.github.io/tugas_compfestsea/
+
+Repo for the deployed web -> https://github.com/nicolas5143/tugas_compfestsea
 
 ## App preview
 
