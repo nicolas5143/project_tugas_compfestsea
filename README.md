@@ -62,8 +62,7 @@ You need to set flutter and firebase configuration:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/your-repository-name.git
-   cd your-repository-name
+   git clone https://github.com/nicolas5143/project_tugas_compfestsea.git
 2. Install dependencies for flutter:
    ```sh
    flutter pub get
